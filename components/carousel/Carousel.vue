@@ -2,15 +2,29 @@
 const props = defineProps({
   content: {
     type: Array,
-  }
+  },
+  perViews: {
+    type: Number,
+    default: 1,
+  },
+  gap: {
+    type: Number,
+    default: 1,
+  },
+  loop: {
+    type: Boolean,
+    default: true
+  },
+  breakpoints: Object,
 })
 </script>
 <template>
   <Swiper
   :modules="[SwiperAutoplay, SwiperEffectCreative]"
     :slides-per-view="1"
-    :space-between="10"
-    :loop="true"
+    :space-between="props.gap"
+    :loop="props.loop"
+    :breakpoints="props.breakpoints"
     :autoplay="{
       delay: 10000,
       disableOnInteraction: true,
