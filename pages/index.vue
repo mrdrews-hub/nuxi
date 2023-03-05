@@ -6,5 +6,4 @@ useHead({
 <template>
     <Jumbotron />
     <TrendingSection class="mt-10" />
-    <TrendingSection class="mt-10" />
 </template>

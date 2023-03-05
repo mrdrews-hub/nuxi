@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       ],
     }
   },
-  modules: ['nuxt-swiper' ,'nuxt-icon'],
+  modules: ['nuxt-swiper','nuxt-icon', '@vite-pwa/nuxt'],
   postcss: {
     plugins: {
       tailwindcss: {},
