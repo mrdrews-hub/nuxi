@@ -16,8 +16,6 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "nuxt-swiper": "^1.0.1",
-    "nuxt-vuefire": "^0.1.6",
-    "vuefire": "^3.1.0"
+    "nuxt-swiper": "^1.0.1"
   }
 }

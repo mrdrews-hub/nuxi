@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     dirs: ['pages/**', '*.vue']
   },
   app: {
+    keepalive: true,
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
